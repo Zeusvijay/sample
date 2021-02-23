@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Responsible page</title>
+  
+    <style>
+      .container{
+        background-color: rgb(212, 209, 209);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="color: red; font-size: 50px;">WELCOME</h1>
+    <div class="col-md-6">
+      <h2 style="color: royalblue;">HERO</h2>
+      <div><br>
+        <input type="button" onclick="attackp1()" value="Attack" style="background-color:rgba(0, 231, 0, 0.966);">&nbsp;&nbsp;
+        <input type="button" onclick="defendp1()" value="Defend" style="background-color:rgba(255, 52, 52, 0.966);"><br>
+        <p><span id="statusp1">100</span>%</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h2 style="color: royalblue;">VILLAN</h2>
+      <div><br>
+        <input type="button" onclick="attackp2()" value="Attack" style="background-color:rgba(0, 231, 0, 0.966);">&nbsp;&nbsp;
+        <input type="button" onclick="defendp2()" value="Defend" style="background-color:rgba(255, 52, 52, 0.966);"><br>
+        <p><span id="statusp2">100</span>%</p>
+      </div>
+    </div>
+  </div>
+</body>
+  <script src="jsfiles/fn.js"></script>
+</html>
